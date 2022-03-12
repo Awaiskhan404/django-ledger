@@ -1,7 +1,5 @@
 from setuptools import setup, find_packages
-
 import django_ledger
-
 setup(
     name="django-ledger",
     version=django_ledger.__version__,

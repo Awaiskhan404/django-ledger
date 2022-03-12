@@ -1,13 +1,5 @@
-"""
-Django Ledger created by Miguel Sanda <msanda@arrobalytics.com>.
-Copyright© EDMA Group Inc licensed under the GPLv3 Agreement.
-
-Contributions to this module:
-Miguel Sanda <msanda@arrobalytics.com>
-"""
 
 from uuid import uuid4
-
 from django.contrib.auth import get_user_model
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import models
