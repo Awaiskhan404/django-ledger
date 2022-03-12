@@ -70,14 +70,7 @@ def set_session_date_filter(request, entity_slug: str, end_date: date):
 
 
 def accruable_net_summary(queryset: QuerySet) -> dict:
-    """
-    A convenience function that computes current net summary of accruable models.
-    "net_30" group indicates the total amount is due in 30 days or less.
-    "net_0" group indicates total past due amount.
-
-    :param queryset: Accruable Objects Queryset.
-    :return: A dictionary summarizing current net summary 0,30,60,90,90+ bill open amounts.
-    """
+  
     nets = {
         'net_0': 0,
         'net_30': 0,
